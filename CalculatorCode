@@ -8,9 +8,35 @@ public class Solution {
         System.out.println("Hello User Please Enter Command Below");
         System.out.println("Addition: 1");
         System.out.println("Subtraction: 2");
-        System.out.println("Multiplacation: 3");
+        System.out.println("Multiplication: 3");
         System.out.println("Division: 4");
 
         Scanner scanner = new Scanner(System.in);
+
+        try {
+            int commandNumber = scanner.nextInt();
+            switch (commandNumber){
+                case 1 : addition();
+                case 2 : subtraction();
+                case 3 : multiplication();
+                case 4 : multiplication();
+                default:
+                    System.out.println("Please enter command from above");
+            }
+        } catch (NumberFormatException ne){
+            System.out.println("Please enter a number");
+        }
+    }
+
+    public static void addition(){
+    }
+
+    public static void subtraction(){
+    }
+
+    public static void multiplication(){
+    }
+
+    public static void division(){
     }
 }
