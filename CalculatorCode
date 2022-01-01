@@ -1,0 +1,16 @@
+package com.company;
+
+
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println("Hello User Please Enter Command Below");
+        System.out.println("Addition: 1");
+        System.out.println("Subtraction: 2");
+        System.out.println("Multiplacation: 3");
+        System.out.println("Division: 4");
+
+        Scanner scanner = new Scanner(System.in);
+    }
+}
